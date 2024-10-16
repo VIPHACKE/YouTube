@@ -1,6 +1,6 @@
 function searchVideos() {
     const query = document.getElementById('search').value;
-    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=YOUR_API_KEY&type=video`)
+    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=AIzaSyDayr30hJDnuDlOUoUp-Y9DovYy27nr6EM&type=video`)
         .then(response => response.json())
         .then(data => {
             const videoList = document.getElementById('video-list');
